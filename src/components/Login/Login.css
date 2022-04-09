@@ -1,11 +1,12 @@
 .form-container{
-    width: 600px;
+    width: 500px;
     margin: 10px auto;
     border: 1px solid #95A0A7;
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    box-shadow: -10px 10px 5px rgba(255, 224, 179, 1);
 }
 .form-title{
     font-size: 35px;
@@ -32,15 +33,38 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+}
+.form-submit:hover{
+    background-color: rgba(255, 153, 0, 0.5);
 }
 .form-link{
     color: #FF9900;
     text-decoration: none;
 }
-.signup-p{
+.account-text{
     text-align: center;
 }
-.icon-container{
+.or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.or-style{
+    width: 145px;
+    height: 0px;
+    background-color: rgba(149, 160, 167, 1);
+    border: 1px solid #95A0A7;
+    margin: 0 5px;
+}
+.icon{
+    width: 42px;
+    height: 32px;
+}
+.icon-text{
+    font-size:  20px;
+}
+.google-btn{
     width: 415px;
     height: 55px;
     background: #FFFFFF;
@@ -52,11 +76,6 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 25px;
-}
-.icon{
-    width: 42px;
-    height: 32px;
-}
-.icon-text{
-    font-size:  20px;
+    margin-top: 20px;
+    cursor: pointer;
 }
